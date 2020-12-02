@@ -9,8 +9,8 @@ Dentre os arquivos existentes no download, foi utilizado somente uma planilha cs
 O projeto visou analisar as estatísticas gerais através de análise univariadas, relações entre variáveis através de análise bivariadas e, para quando existam outliers, analisar as atividades com maior escrutínio através dos arquivos gpx.
 Foram criados três notebooks durante a análise, sendo eles:
 
-1 - Limpeza de dados
-2 - Análise das pedaladas
+1 - Limpeza de dados\
+2 - Análise das pedaladas\
 3 - Análise das corridas
 
 Ademais, visando analisar os arquivos gpx utilizados, um arquivo .py chamado *parse_gpx* foi criado para facilidade.
