@@ -10,3 +10,7 @@ Os datasets contém dados de cada viagem, separados por data (mensal), hora, e c
 ### EDA
 
 O notebook contém uma análise realizada sobre o mês de abril/2014.
+
+### Power BI
+
+O relatório pode ser encontrado no [link](https://app.powerbi.com/view?r=eyJrIjoiMjRkOTMxNWQtMzk1OS00MGZmLWFlODktZjM5MzRmMTJjNzA0IiwidCI6IjdlOTNlMjg2LWIyOWEtNDQ1NC1hNDFhLWU4NDE5ZWM5ZGViNSJ9)
