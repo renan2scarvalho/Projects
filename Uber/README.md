@@ -13,4 +13,4 @@ O notebook contém uma análise realizada sobre o mês de abril/2014.
 
 ### Power BI
 
-O relatório pode ser encontrado no [link](https://app.powerbi.com/view?r=eyJrIjoiMjRkOTMxNWQtMzk1OS00MGZmLWFlODktZjM5MzRmMTJjNzA0IiwidCI6IjdlOTNlMjg2LWIyOWEtNDQ1NC1hNDFhLWU4NDE5ZWM5ZGViNSJ9)
+O relatório pode ser encontrado no [link](https://app.powerbi.com/view?r=eyJrIjoiMjRkOTMxNWQtMzk1OS00MGZmLWFlODktZjM5MzRmMTJjNzA0IiwidCI6IjdlOTNlMjg2LWIyOWEtNDQ1NC1hNDFhLWU4NDE5ZWM5ZGViNSJ9&pageName=ReportSection)
