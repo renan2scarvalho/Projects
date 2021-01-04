@@ -20,10 +20,10 @@ Os algoritmos de aprendizado de máquina utilizados foram:
 
 A priori, temos como resultado do modelo de classificação a matriz de confusão, que apresenta os seguintes valores:
 
-- TP: previsão de churn, que realmente ocorre $\to$ perda monetária pois cliente sai
-- TN: previsão de não churn, que realmente ocorre $\to$ sem perda monetária, pois cliente permanece
-- FP: previsão de churn, mas cliente não sai $\to$ sem perda monetária, pois cliente permanece
-- FN: previsão de não churn, mas cliente sai $\to$ perda monetária, pois previu que cliente ficaria e ele saiu
+- TP: previsão de churn, que realmente ocorre -> perda monetária pois cliente sai
+- TN: previsão de não churn, que realmente ocorre -> sem perda monetária, pois cliente permanece
+- FP: previsão de churn, mas cliente não sai -> sem perda monetária, pois cliente permanece
+- FN: previsão de não churn, mas cliente sai -> perda monetária, pois previu que cliente ficaria e ele saiu
 
 Até tal ponto, é possível compreender as previsões, porém não dentro de um contexto monetário. Faz-se necessário então aplicar um conceito bastante utilizado onde pode-se concatenar as previsões do modelo de aprendizado de máquina com valores do negócio - conceito de **valor esperado**:
 
