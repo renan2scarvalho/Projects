@@ -7,7 +7,7 @@ ___
 ___
 O [Dataset](https://www.kaggle.com/mervetorkan/churndataset?select=churn.csv) apresenta 10.000 instâncias com dados fictícios de um banco que atua na Europa, com 14 atributos diversos acerca de clientes como nome, pontuação de crédito, salário estimado, se possui ou não cartão de crédito, entre outros, e por fim, se existiu evasão ou não por parte do cliente i.e. churn. 
 
-A taxa média de churn é claramente variável de acordo com o porte e segmento da empresa. No caso do setor bancário, taxas de churn entre 11% a 34% podem ser encontradas [[1]](https://thefinancialbrand.com/59779/digital-banking-branch-channel-switching/). Partindo desse princípio, o notebook apresenta um modelo de aprendizado de máquina de previsão de churn utilizando o dataset pré-processado.
+A taxa média de churn é claramente variável de acordo com o porte e segmento da empresa. No caso do setor bancário, taxas de churn entre 11% a 34% podem ser encontradas [[1]](https://thefinancialbrand.com/59779/digital-banking-branch-channel-switching/). Partindo desse princípio, o repositório apresenta dois notebooks, um primeiro que apresenta a EDA e pré-processamento de dados, e um segundo que apresenta um modelo de aprendizado de máquina de previsão de churn utilizando o dataset pré-processado, e previsão de faturamento.
 
 ### Avaliação em função do problema de negócio
 ___
