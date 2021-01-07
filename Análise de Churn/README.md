@@ -31,7 +31,7 @@ Até tal ponto, é possível compreender as previsões, porém não dentro de um
 
 onde p(o_i) é a probabilidade do evento, e v(o_i) é seu valor.
 
-Nesse contexto, visando calcular o valor esperado de lucro de uma campanah de retenção de clientes, pode-se realizar uma análise de curso-benefício, onde temos TP e TN como benefícios (modelo previu corretamente), e FP e FN como os custos (modelo previu incorretamente). A matriz de custo-benefício utilizada para avaliação do projeto, com valores fictícios retirados de [[2]](https://carmenlai.com/2016/11/12/user-churn-prediction-a-machine-learning-workflow.html). Nesse escopo, foi assumido que caso o modelo preveja churn, o plano de retenção terá um gasto de $150 com o cliente. Se o plano tiver sucesso na retenção, o lucro será do lifetime value do cliente menos o custo com o próprio plano, nesse caso, $325 - $150 = $175, simplificando custos com FP e TN:
+Nesse contexto, visando calcular o valor esperado de lucro de uma campanah de retenção de clientes, pode-se realizar uma análise de curso-benefício, onde temos TP e TN como benefícios (modelo previu corretamente), e FP e FN como os custos (modelo previu incorretamente). A matriz de custo-benefício utilizada para avaliação do projeto, com valores fictícios retirados de [[2]](https://carmenlai.com/2016/11/12/user-churn-prediction-a-machine-learning-workflow.html). Nesse escopo, foi assumido que caso o modelo preveja churn, o plano de retenção terá um gasto de $150 com o cliente. Se o plano tiver sucesso na retenção, o lucro será do *lifetime value* do cliente menos o custo com o próprio plano, nesse caso, $325 - $150 = $175, simplificando custos com FP e TN:
 
 - TP -> benefício -> $175 - cliente responde positivamente à campanha e tinha intenção de churn
 
@@ -41,15 +41,15 @@ Portanto, pode-se calcular o valor esperado como:
 
 ![image](https://user-images.githubusercontent.com/63553829/103697675-02b83680-4f7f-11eb-8b85-96effcc936f6.png)
 
-Entretanto, é importante também levar em consideração a probabilidade de se encontrar cada classe *a priori*, ou seja, a probabilidade *a priori* de ocorrer churn ou não [[3]](https://www.oreilly.com/library/view/data-science-for/9781449374273/), ou seja, $p(0)$ ou $p(ñ churn)$ e $p(1)$ ou $p(churn)$, principalmente para classes desbalanceadas. Assim, temos que:
+Entretanto, é importante também levar em consideração a probabilidade de se encontrar cada classe *a priori*, ou seja, a probabilidade *a priori* de ocorrer churn ou não [[3]](https://www.oreilly.com/library/view/data-science-for/9781449374273/), ou seja, p(0) ou p(ñ churn) e p(1) ou p(churn), principalmente para classes desbalanceadas. Assim, temos que:
 
 ![image](https://user-images.githubusercontent.com/63553829/103697707-0ea3f880-4f7f-11eb-83df-693005e346eb.png)
 
 onde:
-- p $\to$ probabilidade
-- b e c $\to$ benefício e custo
-- 0 e 1 $\to$ não churn e churn
-- N e Y $\to$ previsão de não churn e churn
+- p -> probabilidade
+- b e c -> benefício e custo
+- 0 e 1 -> não churn e churn
+- N e Y -> previsão de não churn e churn
 
 O valor esperado de lucro pode ser expresso, portanto, como:
 
