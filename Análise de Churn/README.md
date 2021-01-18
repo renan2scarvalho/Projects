@@ -55,4 +55,4 @@ O valor esperado de lucro pode ser expresso, portanto, como:
 
 ![image](https://user-images.githubusercontent.com/63553829/103697750-1e234180-4f7f-11eb-8985-d673790b56c9.png)
 
-Nota-se, portanto, que são consideradas apenas as ocorrências de churn.
+Nota-se que são considerados apenas as ocorrências de churn, sendo considerados TP e FN e, como consequência, valores de recall culminarão em maior lucro esperado.
