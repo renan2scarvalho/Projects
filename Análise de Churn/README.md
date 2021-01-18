@@ -12,11 +12,11 @@ A taxa média de churn é claramente variável de acordo com o porte e segmento 
 ### Avaliação em função do problema de negócio
 ___
 Os algoritmos de aprendizado de máquina utilizados foram:
-- Naïve Bayes (baseline)
+- Decision Stump (baseline)
 - Regressão Logística
-- SVM
 - Random Forest
 - Gradient Boosting
+- Extreme Gradient Boosting
 
 A priori, temos como resultado do modelo de classificação a matriz de confusão, que apresenta os seguintes valores:
 
