@@ -31,7 +31,7 @@ Até tal ponto, é possível compreender as previsões, porém não dentro de um
 
 onde p(o_i) é a probabilidade do evento, e v(o_i) é seu valor.
 
-Nesse contexto, visando calcular o valor esperado de lucro de uma campanah de retenção de clientes, pode-se realizar uma análise de curso-benefício, onde temos TP e TN como benefícios (modelo previu corretamente), e FP e FN como os custos (modelo previu incorretamente). A matriz de custo-benefício utilizada para avaliação do projeto, com valores fictícios retirados de [[2]](https://carmenlai.com/2016/11/12/user-churn-prediction-a-machine-learning-workflow.html). Nesse escopo, foi assumido que caso o modelo preveja churn, o plano de retenção terá um gasto de $150 com o cliente. Se o plano tiver sucesso na retenção, o lucro será do *lifetime value* do cliente menos o custo com o próprio plano, nesse caso, $325 - $150 = $175, simplificando custos com FP e TN:
+Nesse contexto, visando calcular o valor esperado de lucro de uma campanha de retenção de clientes, pode-se realizar uma análise de curso-benefício, onde temos TP e TN como benefícios (modelo previu corretamente), e FP e FN como os custos (modelo previu incorretamente). A matriz de custo-benefício utilizada para avaliação do projeto com valores fictícios foi baseada em [[2]](https://carmenlai.com/2016/11/12/user-churn-prediction-a-machine-learning-workflow.html). Nesse escopo, foi assumido que caso o modelo preveja churn, o plano de retenção terá um gasto de $150 com o cliente. Se o plano tiver sucesso na retenção, o lucro será do *lifetime value* do cliente menos o custo com o próprio plano, nesse caso, $325 - $150 = $175, simplificando custos com FP e TN:
 
 - TP -> benefício -> $175 - cliente responde positivamente à campanha e tinha intenção de churn
 
