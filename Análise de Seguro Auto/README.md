@@ -75,4 +75,4 @@ Pode-se, portanto, reescrever a equação de *EV* como aplicando-se os valores d
 
 ![image](https://user-images.githubusercontent.com/63553829/105252798-ef02f780-5b5c-11eb-8ac5-ae513bbf4d15.png)
 
-Nota-se que, enquanto a retenção possui uma magnitude de $168.9xTP, a campanha de marketing aplicada a clientes que não iriam cancelar o seguro possui uma magnitude de $-37.6xFP. Busca-se, então, altos valores de TP e baixos valores de FP, visando obter um maior lucro esperado, ou seja, maximização da AUC (comentada abaixo), utilizando, portanto, *ROC-AUC* como métrica de otimização.
+Nota-se que, enquanto a retenção possui uma magnitude de $168.9xTP, a campanha de marketing aplicada a clientes que não iriam cancelar o seguro possui uma magnitude de $-37.6xFP. Busca-se, então, altos valores de TP e baixos valores de FP, visando obter um maior lucro esperado, ou seja, maximização da AUC como comentado acima, utilizando, portanto, *ROC-AUC* como métrica de otimização.
