@@ -9,18 +9,18 @@ Assim como o seguro de saúde, existe o seguro auto em que todos os anos o clien
 ### Os dados
 ___
 O [dataset](https://www.kaggle.com/anmolkumar/health-insurance-cross-sell-prediction) apresenta dados de treinamento para um modelo de previsão de seguros auto, com 381109 instâncias e 11 variáveis, dentre as quais:
-- `id` $\to$ id único do cliente
-- `Gender`$\to$ gênero do cliente
-- `Age` $\to$ idade do cliente
-- `Driving_License` $\to$ se o cliente possui (1) ou não (0) habilitação
-- `Region_Code` $\to$ código único da região do cliente
-- `Previously_Insured`$\to$ cliente possui (1) ou não (0) seguro
-- `Vehicle_Age` $\to$ idade do veículo
-- `Vehicle_Damage`$\to$ veículo danificado (1) ou não (0) no passado
-- `Annual_Premium` $\to$ montante pago pelo cliente à seguradora
-- `Policy_Sales_Channel`$\to$ canal de atendimento ao cliente
-- `Vintage`$\to$ número de dias como cliente
-- `Response`$\to$ cliente interessado (1) ou não (0) no seguro
+- `id` -> id único do cliente
+- `Gender` -> gênero do cliente
+- `Age` -> idade do cliente
+- `Driving_License` -> se o cliente possui (1) ou não (0) habilitação
+- `Region_Code` -> código único da região do cliente
+- `Previously_Insured` -> cliente possui (1) ou não (0) seguro
+- `Vehicle_Age` -> idade do veículo
+- `Vehicle_Damage` -> veículo danificado (1) ou não (0) no passado
+- `Annual_Premium` -> montante pago pelo cliente à seguradora
+- `Policy_Sales_Channel` -> canal de atendimento ao cliente
+- `Vintage` -> número de dias como cliente
+- `Response` -> cliente interessado (1) ou não (0) no seguro
 
 ### Problema de Negócio
 ___
@@ -48,7 +48,7 @@ Aplicando, portanto, uma campanha de marketing aplicada aos clientes com maior p
 
 - TP - benefício -> $1384.2 -> previu que o cliente continuaria, e aplicou campanha de marketing - retenção
 - TN - benefício -> $0 -> previu que o cliente sairia, e ele saiu, então não houve campanha de marketing
-- FP - custo -> -$42.8 -> previu que o cliente ficaria, mas o cliente saiu, e aplicou campanha de marketing - sem retenção
+- FP - custo -> $-42.8 -> previu que o cliente ficaria, mas o cliente saiu, e aplicou campanha de marketing - sem retenção
 - FN - custo -> $0 -> previu que o cliente sairia, mas ele permaneceu
 
 É importante denotar que a matriz de custo-benefício acima, como comentado, foi elaborada em função da campanha de marketing. Claramente, existe perda de receita devido ao TN i.e. para clientes que cancelam o seguro, onde a perda de receita seria o número $n$ de clientes multiplicado pelo LTV -> *n*LTV$*. 
