@@ -8,4 +8,4 @@ O repositório contém um arquivo .py que realiza a raspagem (*web scraping*) do
 - Avaliação
 - Disponibilidade
 
-Ademais, o script está agendado para ocorrer todos os dias em determinado horário, sendo que a raspagem é, portanto, automática.
+Ademais, o script está agendado para ocorrer todos os dias às 22:00, sendo que a raspagem é, portanto, automática.
