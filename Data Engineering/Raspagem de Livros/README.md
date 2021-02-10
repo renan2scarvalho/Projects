@@ -9,4 +9,4 @@ O repositório contém um arquivo .py que realiza a raspagem (*web scraping*) de
 - Avaliação
 - Em estoque
 
-O script está automatizado para realizar a raspagem automaticamente em um horário pré-determinado (*schedule*), realizada com a biblioteca `schedule`.
+O script está automatizado para realizar a raspagem automaticamente em um horário pré-determinado (*schedule*), realizada com a biblioteca `schedule` :calendar:.
