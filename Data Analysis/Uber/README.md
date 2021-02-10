@@ -11,6 +11,6 @@ O NYC Taxi e Limousine Comission (TLC) liberou um dataset contendo mais de 4.5 m
 Os datasets contém dados de cada viagem, separados por data (mensal/diária/horária), com informações detalhadas de localização (latitude e longitude) e base, e pode ser encontrado [neste link](https://www.kaggle.com/fivethirtyeight/uber-pickups-in-new-york-city).
 
 
-### Análises :snake: :car: :chart_with_upwards_trend: :bar_chart:
+### Análises :snake: :car: :earth_americas: :chart_with_upwards_trend: :bar_chart:
 
 O repositório contêm duas análises, sendo a primeira uma análise exploratória acerca dos dados do mês de abril de 2014 em um [Jupyter Notebook](https://github.com/renan2scarvalho/Projetos/blob/main/Uber/Uber%20Abril.ipynb), como também um outro [Jupyter Notebook](https://github.com/renan2scarvalho/Projetos/blob/main/Uber/Preprocessing.ipynb) para pre-processamento/concatenação dos datasets mensais de 2014 visando a posterior análise no Power BI, em que o relatório pode ser encontrado no [link](https://app.powerbi.com/view?r=eyJrIjoiMjRkOTMxNWQtMzk1OS00MGZmLWFlODktZjM5MzRmMTJjNzA0IiwidCI6IjdlOTNlMjg2LWIyOWEtNDQ1NC1hNDFhLWU4NDE5ZWM5ZGViNSJ9&pageName=ReportSection).
