@@ -8,7 +8,7 @@ Este repositório teve como objetivo analisar os dados de atividades físicas pr
 Os dados foram baixados diretamente do site do Strava, e como realizar o download por ser encontrado [aqui](https://support.strava.com/hc/pt/articles/216918437-Exportar-os-seus-dados-e-exporta%C3%A7%C3%A3o-em-massa).
 
 
-## Arquivos :chart_with_upwards_trend: :trophy: :bicyclist: :runner:
+## Arquivos :snake: :chart_with_upwards_trend: :trophy: :bicyclist: :runner:
 
 Dentre os arquivos existentes no download, foi utilizado somente uma planilha .csv com estatísticas gerais das atividades, e alguns arquivos .gpx que contêm marcações segundo a segundo das atividades.
 O projeto visou analisar as estatísticas gerais através de análise univariadas, relações entre variáveis através de análise bivariadas e, para quando existam outliers, analisar as atividades com maior escrutínio através dos arquivos .gpx.
