@@ -6,7 +6,7 @@ ___
 O NYC Taxi e Limousine Comission (TLC) liberou um dataset contendo mais de 4.5 milhões de viagens do aplicativo Uber entre abril e setembro de 2014, e 14.3 milhões de viagens entre janeiro e junho de 2015. 
 
 
-## Dados :envelope:
+## Dados :floppy_disk:
 
 Os datasets contém dados de cada viagem, separados por data (mensal/diária/horária), com informações detalhadas de localização (latitude e longitude) e base, e pode ser encontrado [neste link](https://www.kaggle.com/fivethirtyeight/uber-pickups-in-new-york-city).
 
