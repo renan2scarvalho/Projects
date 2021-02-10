@@ -1,8 +1,9 @@
 # Seguro Auto
 ---
 
+
 ## Objetivo :dart:
-___
+
 Uma seguradora que fornece seguro saúde para seus clientes tem interesse na construção de um modelo para prever se seus clientes do ano passado também estarão interessados no seguro auto fornecido pela empresa.
 
 Uma apólice de seguro é um acordo pelo qual uma empresa se compromete a fornecer uma garantia de compensação por perdas, danos, doenças ou morte especificados em troca do pagamento de um prêmio especificado - uma quantia em dinheiro, que o cliente precisa pagar regularmente a uma seguradora por essa garantia.
@@ -11,7 +12,6 @@ Assim como o seguro de saúde, existe o seguro auto em que todos os anos o clien
 
 
 ## Os dados :floppy_disk:
-___
 
 O [dataset](https://www.kaggle.com/anmolkumar/health-insurance-cross-sell-prediction) apresenta dados de treinamento para um modelo de previsão de seguros auto, com 381109 instâncias e 11 variáveis, dentre as quais:
 - `id` -> id único do cliente
@@ -27,8 +27,8 @@ O [dataset](https://www.kaggle.com/anmolkumar/health-insurance-cross-sell-predic
 - `Vintage` -> número de dias como cliente
 - `Response` -> cliente interessado (1) ou não (0) no seguro
 
+
 ## Problema de Negócio :snake: :car: :moneybag: :briefcase:
-___
 
 O problema de negócio consiste basicamente em prever quais clientes do ano anterior estarão interessados no seguro auto oferecido pela empresa, para que assim o time de vendas possa priorizar as pessoas com maior interesse no produto oferecido, otimizando assim a campanha voltada para os principais clientes. De acordo com [[1]](https://coverager.com/improve-customer-retention-with-the-power-of-apis/#:~:text=The%20average%20customer%20retention%20rate,success%20factors%20for%20auto%20insurers.), a retenção média de clientes para seguradoras de veículos nos EUA gira em torno de 88%.
 Nesse contexto, o repositório possui 2 notebooks, um primeiro visando EDA e pré-processamento dos dados, e um segundo com a criação do modelo de aprendizado ed máquina, avaliação e previsão de valor esperado de lucro.
