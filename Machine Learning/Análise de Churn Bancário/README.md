@@ -1,15 +1,21 @@
 # Análise de Churn
 ___
 
+## Objetivo :dart: 
+
 **Churn**, também chamado de *churn rate* ou *attrition rate*, é uma métrica que mede a evasão de clientes de determinada empresa, ou seja, a taxa de cancelamento. Ou seja, caso a taxa de evasão seja alta, quer dizer que os clientes estão insatisfeitos com a empresa, e que há algum problema que deve ser tratado. Nesse caso, o notebook trata de um dataset fictício de um banco visando previsão de churns.
 
-### O problema de negócio
-___
+
+## Dados :floppy_disk:
+
 O [Dataset](https://www.kaggle.com/mervetorkan/churndataset?select=churn.csv) apresenta 10.000 instâncias com dados fictícios de um banco que atua na Europa, com 14 atributos diversos acerca de clientes como nome, pontuação de crédito, salário estimado, se possui ou não cartão de crédito, entre outros, e por fim, se existiu evasão ou não por parte do cliente i.e. churn. 
+
+
+## O problema de negócio :bank: :moneybag: :briefcase:
 
 A taxa média de churn é claramente variável de acordo com o porte e segmento da empresa. No caso do setor bancário, taxas de churn entre 11% a 34% podem ser encontradas [[1]](https://thefinancialbrand.com/59779/digital-banking-branch-channel-switching/). Partindo desse princípio, o repositório apresenta dois notebooks, um primeiro que apresenta a EDA e pré-processamento de dados, e um segundo que apresenta um modelo de aprendizado de máquina de previsão de churn utilizando o dataset pré-processado, e previsão de faturamento.
 
-### Avaliação em função do problema de negócio
+### Avaliação em função do problema de negócio :snake: :bar_chart:
 ___
 Os algoritmos de aprendizado de máquina utilizados foram:
 - Decision Stump (baseline)
