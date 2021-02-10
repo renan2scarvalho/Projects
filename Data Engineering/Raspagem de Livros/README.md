@@ -20,7 +20,7 @@ O arquivo book_scraping.py que realiza a raspagem (*web scraping*) de todas as p
 
 ### Mensagem  :mailbox:
 
-O arquivo send_email.py aplica a biblioteca `email` para enviar um e-mail automaticamente ao usuário após o fim do web scraping, caso o mesmo tenha sido realizado com sucesso.
+O arquivo send_email.py aplica a biblioteca `email` para enviar um e-mail automaticamente ao usuário após o fim do web scraping com o arquivo .csv criado, caso o mesmo tenha sido realizado com sucesso.
 
 ### Jobs :calendar:
 
