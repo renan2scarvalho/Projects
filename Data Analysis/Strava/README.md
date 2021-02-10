@@ -1,10 +1,12 @@
 # Análise dos dados de atividades do Strava
 ---
+
+
 ## Objetivo :pencil: :dart:
 
 Este repositório teve como objetivo analisar os dados de atividades físicas presentes no aplicativo Strava, no presente caso, corridas e pedaladas .\
 Os dados foram baixados diretamente do site do Strava, e como realizar o download por ser encontrado [aqui](https://support.strava.com/hc/pt/articles/216918437-Exportar-os-seus-dados-e-exporta%C3%A7%C3%A3o-em-massa).
----
+
 
 ## Arquivos :chart_with_upwards_trend: :trophy: :bicyclist: :runner:
 
