@@ -1,7 +1,7 @@
 # Raspagem de Livros
 ---
 
-O repositório contém um arquivo .py que realiza a raspagem (*web scraping*) de todas as paǵinas com livros do site [books.toscrape](http://books.toscrape.com/) utilizando a biblioteca `BeautifulSoup`, e salva os dados dos livros contidos em um arquivo .csv. Dentre as informações dos livros :books:
+O repositório contém um arquivo .py que realiza a raspagem (*web scraping*) de todas as paǵinas com livros do site [books.toscrape](http://books.toscrape.com/) utilizando a biblioteca `BeautifulSoup`, e salva os dados dos livros contidos em um arquivo .csv :file_folder:. Dentre as informações dos livros :books:
 :
 
 - Título
