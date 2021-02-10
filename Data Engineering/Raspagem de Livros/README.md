@@ -11,15 +11,18 @@ Realizar a raspagem automática de um web site, agregando informações em um ar
 
 ### Raspagem :books: :file_folder:
 
-O repositório contém um arquivo .py que realiza a raspagem (*web scraping*) de todas as paǵinas com livros do site [books.toscrape](http://books.toscrape.com/) utilizando a biblioteca `BeautifulSoup`, e salva os dados dos livros contidos em um arquivo .csv. Dentre as informações dos livros:
+O arquivo book_scraping.py que realiza a raspagem (*web scraping*) de todas as paǵinas com livros do site [books.toscrape](http://books.toscrape.com/) utilizando a biblioteca `BeautifulSoup`, e salva os dados dos livros contidos em um arquivo .csv. Dentre as informações dos livros:
 
 - Título :memo:
 - Preço (£) :pound:
 - Avaliação :star:
 - Em estoque :truck:
 
-### Agendamento :calendar: :mailbox:
+### Mensagem  :mailbox:
 
-O script aplica as bibliotecas `schedule` e `email`para automatização, realizando a raspagem em um horário pré-determinado (*schedule*), e enviando um e-mail ao usuário ao final da raspagem.
+O arquivo send_email.py aplica a biblioteca `email` para enviar um e-mail automaticamente ao usuário após o fim do web scraping, caso o mesmo tenha sido realizado com sucesso.
 
+### Jobs :calendar:
+
+O script jobs.py utiliza as funções criadas nos scripts anteriores juntando-as em um agendamento automático em um horário pré-determinado (*schedule*) para a raspagem através da biblioteca `schedule`.
 
