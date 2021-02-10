@@ -1,12 +1,12 @@
 # Sistema de Recomendação de Cursos
 ---
 
-## Objetivo :dart: ::
+## Objetivo :dart: :speech_balloon:
 
 Realizar a recomendação de um novo curso utilizando uma base de dados existe, e criar uma nova base de dados com as recomendações.
 
 
-## Projeto :snake: :mortar_board: :computer: :moneybag: :inbox_tray: :outbox_tray:
+## Projeto :snake: :mortar_board: :computer: :moneybag: :floppy_disk:
 
 O projeto consistiu na utilização de uma base de dados de usuários de diferentes tipos de cursos, os quais abordam diferentes linguagens de programação, para criar um simples sistema de recomendação baseando-se nas linguagens mais utilizadas pelos usuários, bem como nos cursos ainda não realizados e média de avaliação por curso aplicando um threshold arbitrário de avaliação (regras de negócio). O banco de dados pode ser encontrado em [[1]](https://raw.githubusercontent.com/qodatecnologia/postgresql-db-reviews/main/db.sql).
 
