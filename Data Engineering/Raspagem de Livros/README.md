@@ -5,7 +5,7 @@
 
 Realizar a raspagem de um web site, agregando informações em um arquivo único .csv.
 
----
+
 
 ## Projeto :snake: :books: :file_folder: :calendar:
 
