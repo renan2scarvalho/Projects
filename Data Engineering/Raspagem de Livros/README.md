@@ -1,10 +1,10 @@
 # Raspagem de Livros
 ---
 
+
 ## Objetivo :dart: :floppy_disk:
 
-Realizar a raspagem de um web site, agregando informações em um arquivo único .csv.
-
+Realizar a raspagem automática de um web site, agregando informações em um arquivo único .csv, enviando um e-mail ao usuário se a raspagem for concluída com sucesso.
 
 
 ## Projeto :snake:   
