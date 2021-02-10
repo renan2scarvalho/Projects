@@ -16,7 +16,7 @@ O [Dataset](https://www.kaggle.com/mervetorkan/churndataset?select=churn.csv) ap
 A taxa média de churn é claramente variável de acordo com o porte e segmento da empresa. No caso do setor bancário, taxas de churn entre 11% a 34% podem ser encontradas [[1]](https://thefinancialbrand.com/59779/digital-banking-branch-channel-switching/). Partindo desse princípio, o repositório apresenta dois notebooks, um primeiro que apresenta a EDA e pré-processamento de dados, e um segundo que apresenta um modelo de aprendizado de máquina de previsão de churn utilizando o dataset pré-processado, e previsão de faturamento.
 
 ### Avaliação em função do problema de negócio :snake: :bar_chart:
-___
+
 Os algoritmos de aprendizado de máquina utilizados foram:
 - Decision Stump (baseline)
 - Regressão Logística
