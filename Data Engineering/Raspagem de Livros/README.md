@@ -24,5 +24,5 @@ O arquivo send_email.py aplica a biblioteca `email` para enviar um e-mail automa
 
 ### Jobs :calendar:
 
-O script jobs.py utiliza as funções criadas nos scripts anteriores juntando-as em um agendamento automático em um horário pré-determinado (*schedule*) para a raspagem através da biblioteca `schedule`.
+O script jobs.py utiliza as funções criadas nos scripts anteriores juntando-as em um agendamento automático em um horário pré-determinado (22:00 neste caso) para a raspagem através da biblioteca `schedule`.
 
