@@ -3,7 +3,7 @@
 This is the outcome of the Udemy Course *Customer Analytics for Business* from *The Click Reader*.
 The course aimed to work with a transactional customer data, analysis on data to find insights for acquiring, retaining, and growing your customer base.
 
-## Goals
+## Goals :snake: :dart: :customs: 
 ---
 The approach and goals are as follows:
 - Identify what kind of data to collect and from which sources along with the best practices
