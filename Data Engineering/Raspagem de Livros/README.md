@@ -7,8 +7,9 @@ Realizar a raspagem de um web site, agregando informações em um arquivo único
 
 
 
-## Projeto :snake: :books: :file_folder: :calendar:
+## Projeto :snake:   
 
+### Raspagem :books: :file_folder:
 
 O repositório contém um arquivo .py que realiza a raspagem (*web scraping*) de todas as paǵinas com livros do site [books.toscrape](http://books.toscrape.com/) utilizando a biblioteca `BeautifulSoup`, e salva os dados dos livros contidos em um arquivo .csv. Dentre as informações dos livros:
 
@@ -17,6 +18,8 @@ O repositório contém um arquivo .py que realiza a raspagem (*web scraping*) de
 - Avaliação :star:
 - Em estoque :truck:
 
-O script está automatizado para realizar a raspagem automaticamente em um horário pré-determinado (*schedule*), realizada com a biblioteca `schedule`.
+### Agendamento :calendar: :mailbox:
+
+O script aplica as bibliotecas `schedule` e `email`para automatização, realizando a raspagem em um horário pré-determinado (*schedule*), e enviando um e-mail ao usuário ao final da raspagem.
 
 
