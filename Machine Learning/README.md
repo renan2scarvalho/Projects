@@ -1,4 +1,4 @@
-# <span>&#x1f1e7;&#x1f1f7;</span> Aprendizado de Máquina :mortar_board :mortar_board:	:
+# <span>&#x1f1e7;&#x1f1f7;</span> Aprendizado de Máquina :mortar_board:	:
 
 Repositório destinado a projetos de Aprendizado de Máquina, utilizando majoritariamente algoritmos supervisionados.
 
