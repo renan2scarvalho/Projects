@@ -36,7 +36,7 @@ So in order to follow the framework, one must start with segmenting. Traditional
 
 The segments can be identified with different sets of variables, such as geographic (e.g. region, country, population), demographic (e.g. gender, age, education), psychographic (e.g. lifestyle, personality, interest), and behavioral (e.g. user status, brand loyalty) characteristics. Here, the previous results from RFM models were used, as no other characteristics from the customers were available to be implemented in the clustering. This approach is called *post hoc* segmentation, were one uses variables/characteristics of customers to segmentation i.e. data-based. Here, is important to comment that the number of clusters was arbitrarily chosen, which is not the best approach (the best situation would be perform a silhouette coefficient analysis).
 
-Based on the results from clustering, the customers were segmented into low-value, mid-value, and high-value, and future marketing can be directed to each of the segments.
+Based on clustering results, the customers were segmented into low-value, mid-value, and high-value, and future marketing can be directed to each of the segments.
 
 
 References: [1] Miller, T. W. Marketing Data Science: Modeling Techniques in Predictive Analytics with R and Python.
